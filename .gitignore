@@ -1,0 +1,49 @@
+# AGENT
+## Claude Code
+### local settings
+.claude/settings.local.json
+.claude/*.local.json
+### workflows
+.claude/worktrees/
+.claude/worktree/
+### secrets
+.claude/mcp.json
+.claude/credentials.json
+.claude/secrets.json
+### sessions
+.claude/agents/*/state/
+.claude/agents/*/*.local.json
+.claude/sessions/
+### logs & intermedia
+.claude/logs/
+.claude/cache/
+.claude/history/
+.claude/tmp/
+.claude/*.log
+.claude/*.tmp
+### build
+.claude/build/
+.claude/dist/
+# ==========================================
+# THIS FILES SHOULD REMAINS:
+# - CLAUDE.md / .claude/CLAUDE.md
+# - .claude/settings.json
+# - .claude/skills/
+# - .claude/rules/
+# - .claude/agents/*.md
+# ==========================================
+
+# Test
+
+# Linter
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets & environment
+.env
+.venv
+
+# log & intermedia
+*.log
